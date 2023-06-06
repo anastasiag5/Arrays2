@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="516" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="260" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane4">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+    </Container>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane3">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+    </Container>
+    <Component class="javax.swing.JMenuItem" name="jMenuItem1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jMenuItem1"/>
+      </Properties>
+    </Component>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem_exitButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x412;&#x44b;&#x445;&#x43e;&#x434;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem_exitButtonActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="help"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x41e; &#x440;&#x430;&#x437;&#x440;&#x430;&#x431;&#x43e;&#x442;&#x447;&#x438;&#x43a;&#x435;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jTabbedPane1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x420;&#x430;&#x437;&#x434;&#x435;&#x43b; 1">
+                <Property name="tabTitle" type="java.lang.String" value="&#x420;&#x430;&#x437;&#x434;&#x435;&#x43b; 1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel1">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="4">
+                    <Property name="tabTitle" type="java.lang.String" value="4"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel_Exercise4Part1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="141" max="-2" attributes="0"/>
+                                  <Component id="jButton_doExercise4Part1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel_inputCaptionKExercise4Part1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jTextField_inputKExercise4Part1" min="-2" pref="64" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel_inputCaptionNExercise4Part1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="jTextField_inputNExercise4Part1" min="-2" pref="66" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel_outputArrayCaptionExercise4Part1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel_outputResultExercise4Part1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="322" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel_Exercise4Part1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel_inputCaptionNExercise4Part1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField_inputNExercise4Part1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jTextField_inputKExercise4Part1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_inputCaptionKExercise4Part1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton_doExercise4Part1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jLabel_outputArrayCaptionExercise4Part1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel_outputResultExercise4Part1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="433" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel_Exercise4Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x417;&#x430;&#x434;&#x430;&#x43d; &#x43e;&#x434;&#x43d;&#x43e;&#x43c;&#x435;&#x440;&#x43d;&#x44b;&#x439; &#x43c;&#x430;&#x441;&#x441;&#x438;&#x432; &#x410;[1..20]. &#x41d;&#x430;&#x439;&#x442;&#x438; &#x43c;&#x438;&#x43d;&#x438;&#x43c;&#x430;&#x43b;&#x44c;&#x43d;&#x44b;&#x439; &#x44d;&#x43b;&#x435;&#x43c;&#x435;&#x43d;&#x442;&lt;br/&gt; &#x441;&#x440;&#x435;&#x434;&#x438; &#x44d;&#x43b;&#x435;&#x43c;&#x435;&#x43d;&#x442;&#x43e;&#x432; &#x43c;&#x430;&#x441;&#x441;&#x438;&#x432;&#x430; &#x441; n-&#x433;&#x43e; &#x43f;&#x43e; k-&#x439; (n &#x438; k &#x432;&#x432;&#x43e;&#x434;&#x44f;&#x442;&#x441;&#x44f; &#x441; &#x43a;&#x43b;&#x430;&#x432;&#x438;&#x430;&#x442;&#x443;&#x440;&#x44b;)&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton_doExercise4Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x412;&#x44b;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x44c;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_doExercise4Part1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_inputCaptionNExercise4Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="n:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField_inputNExercise4Part1">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_inputCaptionKExercise4Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="k: "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField_inputKExercise4Part1">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputArrayCaptionExercise4Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x41c;&#x430;&#x441;&#x441;&#x438;&#x432;; "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputResultExercise4Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x420;&#x435;&#x437;&#x443;&#x43b;&#x44c;&#x442;&#x430;&#x442;: "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="29">
+                    <Property name="tabTitle" type="java.lang.String" value="29"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel_exercise29Part1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_outputMinValueExercise29Part1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton_doExercise29Part1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_outputIndexMinValueExercise29Part1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_outputArrayExercise29Part1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel_exercise29Part1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabel_outputMinValueExercise29Part1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                          <Component id="jLabel_outputIndexMinValueExercise29Part1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel_outputArrayExercise29Part1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jButton_doExercise29Part1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="470" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel_exercise29Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x417;&#x430;&#x434;&#x430;&#x43d; &#x43e;&#x434;&#x43d;&#x43e;&#x43c;&#x435;&#x440;&#x43d;&#x44b;&#x439; &#x43c;&#x430;&#x441;&#x441;&#x438;&#x432; A[1..20].&lt;br/&gt; &#x41d;&#x430;&#x439;&#x442;&#x438; &#x43c;&#x438;&#x43d;&#x438;&#x43c;&#x430;&#x43b;&#x44c;&#x43d;&#x44b;&#x439; &#x44d;&#x43b;&#x435;&#x43c;&#x435;&#x43d;&#x442; &#x441;&#x440;&#x435;&#x434;&#x438; &#x44d;&#x43b;&#x435;&#x43c;&#x435;&#x43d;&#x442;&#x43e;&#x432;, &#x441;&#x442;&#x43e;&#x44f;&#x449;&#x438;&#x445; &#x43d;&#x430; &#x447;&#x435;&#x442;&#x43d;&#x44b;&#x445; &#x43f;&#x43e;&#x437;&#x438;&#x446;&#x438;&#x44f;&#x445; &#x438; &#x435;&#x433;&#x43e; &#x43d;&#x43e;&#x43c;&#x435;&#x440;.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputMinValueExercise29Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x41c;&#x438;&#x43d;&#x438;&#x43c;&#x430;&#x43b;&#x44c;&#x43d;&#x43e;&#x435; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x438;&#x435;: "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton_doExercise29Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x412;&#x44b;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x44c;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_doExercise29Part1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputArrayExercise29Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x41c;&#x430;&#x441;&#x441;&#x438;&#x432;: "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputIndexMinValueExercise29Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x418;&#x43d;&#x434;&#x435;&#x43a;&#x441; &#x43c;&#x438;&#x43d;&#x438;&#x43c;&#x430;&#x43b;&#x44c;&#x43d;&#x43e;&#x433;&#x43e; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x438;&#x44f;: "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="54">
+                    <Property name="tabTitle" type="java.lang.String" value="54"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel_exercise54Part1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton_doExercise54Part1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_outputArrayExercise54Part1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel_outputResultExercise54Part1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel_exercise54Part1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabel_outputArrayExercise54Part1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jLabel_outputResultExercise54Part1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="jButton_doExercise54Part1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="451" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel_exercise54Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x412; &#x43c;&#x430;&#x441;&#x441;&#x438;&#x432;&#x435; &#x445;&#x440;&#x430;&#x43d;&#x438;&#x442;&#x441;&#x44f; &#x438;&#x43d;&#x444;&#x43e;&#x440;&#x43c;&#x430;&#x446;&#x438;&#x44f; &#x43e; &#x43a;&#x43e;&#x43b;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x435; &#x43f;&#x43e;&#x431;&#x435;&#x434;, &#x43e;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43d;&#x43d;&#x44b;&#x445; 20&lt;br/&gt; &#x444;&#x443;&#x442;&#x431;&#x43e;&#x43b;&#x44c;&#x43d;&#x44b;&#x43c;&#x438; &#x43a;&#x43e;&#x43c;&#x430;&#x43d;&#x434;&#x430;&#x43c;&#x438;. &#x421; &#x43f;&#x43e;&#x43c;&#x43e;&#x449;&#x44c;&#x44e; &#x434;&#x430;&#x442;&#x447;&#x438;&#x43a;&#x430; &#x441;&#x43b;&#x443;&#x447;&#x430;&#x439;&#x43d;&#x44b;&#x445; &#x447;&#x438;&#x441;&#x435;&#x43b; &#x437;&#x430;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x44c; &#x43c;&#x430;&#x441;&#x441;&#x438;&#x432; &#x446;&#x435;&#x43b;&#x44b;&#x43c;&#x438; &#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x438;&#x44f;&#x43c;&#x438;, &#x43b;&#x435;&#x436;&#x430;&#x449;&#x438;&#x43c;&#x438;&lt;br/&gt; &#x432; &#x434;&#x438;&#x430;&#x43f;&#x430;&#x437;&#x43e;&#x43d;&#x435; &#x43e;&#x442; 0 &#x434;&#x43e; 5 &#x432;&#x43a;&#x43b;&#x44e;&#x447;&#x438;&#x442;&#x435;&#x43b;&#x44c;&#x43d;&#x43e;. &#x41e;&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;&#x438;&#x442;&#x44c; &#x43d;&#x43e;&#x43c;&#x435;&#x440;&#x430; &#x43a;&#x43e;&#x43c;&#x430;&#x43d;&#x434;, &#x43e;&#x434;&#x435;&#x440;&#x436;&#x430;&#x432;&#x448;&#x438;&#x445; &#x431;&#x43e;&#x43b;&#x435;&#x435; 3-&#x445; &#x43f;&#x43e;&#x431;&#x435;&#x434;.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton_doExercise54Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x412;&#x44b;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x44c;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_doExercise54Part1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputArrayExercise54Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x41c;&#x430;&#x441;&#x441;&#x438;&#x432;: "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputResultExercise54Part1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x420;&#x435;&#x437;&#x443;&#x43b;&#x44c;&#x442;&#x430;&#x442;: "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane5">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x420;&#x430;&#x437;&#x434;&#x435;&#x43b; 2">
+                <Property name="tabTitle" type="java.lang.String" value="&#x420;&#x430;&#x437;&#x434;&#x435;&#x43b; 2"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel5">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="4">
+                    <Property name="tabTitle" type="java.lang.String" value="4"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabel_exercise4Part2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                                  <Component id="jLabel_outputSumExercise4Part2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="102" alignment="0" attributes="0">
+                                                      <EmptySpace min="-2" pref="244" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="1" attributes="0">
+                                                          <Component id="jButton_doExercise4Part2" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="jLabel_inputCaptionRowsExercise4Part2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <Group type="102" alignment="1" attributes="0">
+                                                      <Component id="jTextField1" min="-2" max="-2" attributes="0"/>
+                                                      <EmptySpace max="32767" attributes="0"/>
+                                                      <Component id="jLabel_inputCaptionColumnsExercise4Part2" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="jLabel_outputNExercise4Part2" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace pref="340" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="jTextField_inputRowsExercise4Part2" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jTextField_inputColumnsExercise4Part2" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="0" pref="17" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="170" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel_exercise4Part2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel_outputNExercise4Part2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jTextField_inputColumnsExercise4Part2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel_inputCaptionColumnsExercise4Part2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel_outputSumExercise4Part2" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel_inputCaptionRowsExercise4Part2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextField_inputRowsExercise4Part2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="jButton_doExercise4Part2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" pref="195" max="-2" attributes="0"/>
+                          <EmptySpace pref="227" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel_exercise4Part2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x412; &#x434;&#x432;&#x443;&#x43c;&#x435;&#x440;&#x43d;&#x43e;&#x43c; &#x43c;&#x430;&#x441;&#x441;&#x438;&#x432;&#x435; &#x43d;&#x430;&#x439;&#x442;&#x438; &#x441;&#x443;&#x43c;&#x43c;&#x443; &#x432;&#x441;&#x435;&#x445; &#x442;&#x435;&#x445; &#x44d;&#x43b;&#x435;&#x43c;&#x435;&#x43d;&#x442;&#x43e;&#x432;, &#x441;&#x443;&#x43c;&#x43c;&#x430; &#x438;&#x43d;&#x434;&#x435;&#x43a;&#x441;&#x43e;&#x432; &#x43a;&#x43e;&#x442;&#x43e;&#x440;&#x44b;&#x445; &#x440;&#x430;&#x432;&#x43d;&#x430; n."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputNExercise4Part2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="N: "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputSumExercise4Part2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x421;&#x443;&#x43c;&#x43c;&#x430;: "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton_doExercise4Part2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x412;&#x44b;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x44c;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_doExercise4Part2ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="jTable_outputArrayExercise4Part2">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="5" rowCount="0">
+                            <Column editable="true" title="" type="java.lang.Object"/>
+                            <Column editable="true" title="" type="java.lang.Object"/>
+                            <Column editable="true" title="" type="java.lang.Object"/>
+                            <Column editable="true" title="" type="java.lang.Object"/>
+                            <Column editable="true" title="" type="java.lang.Object"/>
+                          </Table>
+                        </Property>
+                        <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                          <TableColumnModel selectionModel="0">
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                          </TableColumnModel>
+                        </Property>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JTextField" name="jTextField_inputColumnsExercise4Part2">
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField_inputRowsExercise4Part2">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_inputCaptionColumnsExercise4Part2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x421;&#x442;&#x43e;&#x43b;&#x431;&#x446;&#x43e;&#x432;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_inputCaptionRowsExercise4Part2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x421;&#x442;&#x440;&#x43e;&#x43a;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField1">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel6">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="29">
+                    <Property name="tabTitle" type="java.lang.String" value="29"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel_exercise29Part2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="188" max="-2" attributes="0"/>
+                                  <Component id="jButton_doExercise29Part2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jScrollPane1" alignment="0" min="-2" pref="453" max="-2" attributes="0"/>
+                              <Component id="jLabel_outputCaptionExercise29Part2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="236" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel_exercise29Part2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="jButton_doExercise29Part2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          <Component id="jLabel_outputCaptionExercise29Part2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="125" max="-2" attributes="0"/>
+                          <EmptySpace pref="367" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel_exercise29Part2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&lt;html&gt;&#x412;&#x44b;&#x432;&#x435;&#x441;&#x442;&#x438; &#x43d;&#x430; &#x44d;&#x43a;&#x440;&#x430;&#x43d; &#x43c;&#x430;&#x442;&#x440;&#x438;&#x446;&#x443; 5&#x445;5, &#x44d;&#x43b;&#x435;&#x43c;&#x435;&#x43d;&#x442;&#x430;&#x43c;&#x438; &#x43a;&#x43e;&#x442;&#x43e;&#x440;&#x43e;&#x439; &#x44f;&#x432;&#x43b;&#x44f;&#x44e;&#x442;&#x441;&#x44f; &#x446;&#x435;&#x43b;&#x44b;&#x435; &#x441;&#x43b;&#x443;&#x447;&#x430;&#x439;&#x43d;&#x44b;&#x435; &lt;br/&gt; &#x447;&#x438;&#x441;&#x43b;&#x430; &#x438;&#x437; &#x438;&#x43d;&#x442;&#x435;&#x440;&#x432;&#x430;&#x43b;&#x430; [-19,49]. &#x41d;&#x430;&#x439;&#x442;&#x438; &#x441;&#x443;&#x43c;&#x43c;&#x443; &#x447;&#x435;&#x442;&#x43d;&#x44b;&#x445; &#x44d;&#x43b;&#x435;&#x43c;&#x435;&#x43d;&#x442;&#x43e;&#x432; &#x43a;&#x430;&#x436;&#x434;&#x43e;&#x433;&#x43e; &#x441;&#x442;&#x43e;&#x43b;&#x431;&#x446;&#x430;.&lt;/html&gt;"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputCaptionExercise29Part2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x420;&#x435;&#x437;&#x443;&#x43b;&#x44c;&#x442;&#x430;&#x442;: "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton_doExercise29Part2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x412;&#x44b;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x44c;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_doExercise29Part2ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="jTable_outputResultExercise29Part2">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="5" rowCount="0">
+                            <Column editable="true" title="" type="java.lang.Object"/>
+                            <Column editable="true" title="" type="java.lang.Object"/>
+                            <Column editable="true" title="" type="java.lang.Object"/>
+                            <Column editable="true" title="" type="java.lang.Object"/>
+                            <Column editable="true" title="" type="java.lang.Object"/>
+                          </Table>
+                        </Property>
+                        <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                          <TableColumnModel selectionModel="0">
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                          </TableColumnModel>
+                        </Property>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane6">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x420;&#x430;&#x437;&#x434;&#x435;&#x43b; 3">
+                <Property name="tabTitle" type="java.lang.String" value="&#x420;&#x430;&#x437;&#x434;&#x435;&#x43b; 3"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel7">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="4">
+                    <Property name="tabTitle" type="java.lang.String" value="4"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="248" max="-2" attributes="0"/>
+                                  <Component id="jButton_doExercise4Part3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel_exercise4Part3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jTextField_inputExercise4Part3" min="-2" pref="604" max="-2" attributes="0"/>
+                                      <Component id="jLabel_outputResultExercise4Part3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="74" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="jLabel_exercise4Part3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="jButton_doExercise4Part3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="jTextField_inputExercise4Part3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="jLabel_outputResultExercise4Part3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="416" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel_exercise4Part3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x41e;&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;&#x438;&#x442;&#x44c;, &#x43a;&#x430;&#x43a;&#x43e;&#x439; &#x43f;&#x440;&#x43e;&#x446;&#x435;&#x43d;&#x442; &#x441;&#x43b;&#x43e;&#x432; &#x432; &#x442;&#x435;&#x43a;&#x441;&#x442;&#x435; &#x441;&#x43e;&#x434;&#x435;&#x440;&#x436;&#x438;&#x442; &#x431;&#x443;&#x43a;&#x432;&#x443; &#x41e; (&#x441;&#x43b;&#x43e;&#x432;&#x430; &#x440;&#x430;&#x437;&#x434;&#x435;&#x43b;&#x435;&#x43d;&#x44b; &#x43f;&#x440;&#x43e;&#x431;&#x435;&#x43b;&#x430;&#x43c;&#x438;)."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton_doExercise4Part3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x412;&#x44b;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x44c;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_doExercise4Part3ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField_inputExercise4Part3">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputResultExercise4Part3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x420;&#x435;&#x437;&#x443;&#x43b;&#x44c;&#x442;&#x430;&#x442;"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel8">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="29">
+                    <Property name="tabTitle" type="java.lang.String" value="29"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel_exercise29Part3" max="32767" attributes="0"/>
+                                  <Component id="jTextField_inputExercise29Part3" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel_outputResultExercise29Part3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                                  <Component id="jButton_doExercise29Part3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="352" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabel_exercise29Part3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="jTextField_inputExercise29Part3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel_outputResultExercise29Part3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton_doExercise29Part3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="478" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel_exercise29Part3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x41f;&#x43e;&#x434;&#x441;&#x447;&#x438;&#x442;&#x430;&#x442;&#x44c; &#x43a;&#x43e;&#x43b;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43e; &#x446;&#x438;&#x444;&#x440; &#x432;&#x43e; &#x432;&#x432;&#x435;&#x434;&#x435;&#x43d;&#x43d;&#x43e;&#x439; &#x441;&#x442;&#x440;&#x43e;&#x43a;&#x435;, &#x43a;&#x440;&#x430;&#x442;&#x43d;&#x44b;&#x445; 3"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField_inputExercise29Part3">
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputResultExercise29Part3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x420;&#x435;&#x437;&#x443;&#x43b;&#x44c;&#x442;&#x430;&#x442;: "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton_doExercise29Part3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x412;&#x44b;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x44c;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_doExercise29Part3ActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel9">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="54">
+                    <Property name="tabTitle" type="java.lang.String" value="54"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel_outputLetersExercise54Part3" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jLabel_exercise54Part3" max="32767" attributes="0"/>
+                                          <Component id="jTextField_inputExercise54Part3" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="jLabel_outputDigitsExercise54Part3" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="221" max="-2" attributes="0"/>
+                                  <Component id="jButton_doExercise54Part3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace pref="163" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="jLabel_exercise54Part3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Component id="jTextField_inputExercise54Part3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                          <Component id="jLabel_outputLetersExercise54Part3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jLabel_outputDigitsExercise54Part3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                          <Component id="jButton_doExercise54Part3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="388" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel_exercise54Part3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x421;&#x43e;&#x437;&#x434;&#x430;&#x442;&#x44c; &#x43f;&#x440;&#x43e;&#x446;&#x435;&#x434;&#x443;&#x440;&#x443;, &#x43e;&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;&#x44f;&#x44e;&#x449;&#x443;&#x44e; &#x43a;&#x43e;&#x43b;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43e; &#x431;&#x443;&#x43a;&#x432; &#x438; &#x43a;&#x43e;&#x43b;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43e; &#x446;&#x438;&#x444;&#x440; &#x432;&#x43e; &#x432;&#x432;&#x435;&#x434;&#x435;&#x43d;&#x43d;&#x43e;&#x439; &#x441;&#x442;&#x440;&#x43e;&#x43a;&#x435;."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField_inputExercise54Part3">
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton_doExercise54Part3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x412;&#x44b;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x44c;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_doExercise54Part3ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputLetersExercise54Part3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x411;&#x443;&#x43a;&#x432;: "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel_outputDigitsExercise54Part3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x426;&#x438;&#x444;&#x440;: "/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane7">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="&#x420;&#x430;&#x437;&#x434;&#x435;&#x43b; 4">
+                <Property name="tabTitle" type="java.lang.String" value="&#x420;&#x430;&#x437;&#x434;&#x435;&#x43b; 4"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel10">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="4">
+                    <Property name="tabTitle" type="java.lang.String" value="4"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jLabel_exercise4Part4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="258" max="-2" attributes="0"/>
+                                  <Component id="jButton_doExercise4Part4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane3" min="-2" pref="310" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel_exercise4Part4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                          <Component id="jButton_doExercise4Part4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jScrollPane3" min="-2" pref="145" max="-2" attributes="0"/>
+                          <EmptySpace pref="359" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="jLabel_exercise4Part4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x41f;&#x440;&#x43e;&#x442;&#x430;&#x431;&#x443;&#x43b;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x442;&#x44c; &#x444;&#x443;&#x43d;&#x43a;&#x446;&#x438;&#x44e; y=ex + e-x &#x434;&#x43b;&#x44f; -2&lt;=x&lt;=2 &#x441; &#x448;&#x430;&#x433;&#x43e;&#x43c; 0.2, &#x437;&#x430;&#x43f;&#x438;&#x441;&#x430;&#x442;&#x44c; &#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x435; &#x432; &#x444;&#x430;&#x439;&#x43b; &#x438; &#x43f;&#x440;&#x43e;&#x441;&#x43c;&#x43e;&#x442;&#x440;&#x435;&#x442;&#x44c; &#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x435; &#x438;&#x437; &#x444;&#x430;&#x439;&#x43b;&#x430;."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="jButton_doExercise4Part4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="&#x412;&#x44b;&#x43f;&#x43e;&#x43b;&#x43d;&#x438;&#x442;&#x44c;"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_doExercise4Part4ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="jTable_outputExercise4Part4">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="2" rowCount="0">
+                            <Column editable="true" title="x" type="java.lang.Object"/>
+                            <Column editable="true" title="y = ex + e -x" type="java.lang.Object"/>
+                          </Table>
+                        </Property>
+                        <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                          <TableColumnModel selectionModel="0">
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                          </TableColumnModel>
+                        </Property>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                        </Property>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
